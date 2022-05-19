@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    background: black;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.item{
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.icon{
+    font-size: 180px;
+    cursor: pointer;
+}            
+p{
+    font-size: 25px;
+    color: #fff;
+    font-family:'Ravie';
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+            
+        
+    
