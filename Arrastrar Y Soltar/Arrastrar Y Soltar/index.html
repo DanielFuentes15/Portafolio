@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>API Drag and Drop</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+	<div class="contenedor">
+		<div class="contenedor-lista">
+			<h1>ARRASTRAR Y SOLTAR</h1>
+			<div class="lista" id="contratistas"><!-- Persona 1 -->
+				<div class="persona"> 
+					<div class="foto">
+						<img src="img//Goku.png" alt="" width="120px" height="130px">
+					</div>
+					<div class="nombre">
+						<div>
+							<p class="label">NOMBRE</p>
+							<p class="dato">Goku</p>
+						</div>
+					</div>
+					<div class="edad">
+						<p class="label">EDAD</p>
+						<p class="dato">40</p>
+					</div>
+					<div class="correo">
+						<div class="label">Correo</div>
+						<p class="dato">songoku@dragon.com</p>
+					</div>
+				</div>
+				
+				
+				<div class="persona"><!-- Persona 2 -->
+					<div class="foto">
+						<img src="img/Vegeta.png" alt="">
+					</div>
+					<div class="nombre">
+						<div>
+							<p class="label">NOMBRE</p>
+							<p class="dato">Vegeta</p>
+						</div>
+					</div>
+					<div class="edad">
+						<p class="label">EDAD</p>
+						<p class="dato">40</p>
+					</div>
+					<div class="correo">
+						<div class="label">CORREO</div>
+						<p class="dato">vegeta@dragon.com</p>
+					</div>
+				</div>
+
+				
+				<div class="persona"><!-- Persona 3 -->
+					<div class="foto">
+						<img src="img/Gohan.png" alt="">
+					</div>
+					<div class="nombre">
+						<div>
+							<p class="label">NOMBRE</p>
+							<p class="dato">Gohan</p>
+						</div>
+					</div>
+					<div class="edad">
+						<p class="label">EDAD</p>
+						<p class="dato">18</p>
+					</div>
+					<div class="correo">
+						<div class="label">CORREO</div>
+						<p class="dato">songohan@dragon.com</p>
+					</div>
+				</div>
+
+				
+				<div class="persona"><!-- Persona 4 -->
+					<div class="foto">
+						<img src="img/Trunks.png" alt="">
+					</div>
+					<div class="nombre">
+						<div>
+							<p class="label">NOMBRE</p>
+							<p class="dato">Trunks</p>
+						</div>
+					</div>
+					<div class="edad">
+						<p class="label">EDAD</p>
+						<p class="dato">18</p>
+					</div>
+					<div class="correo">
+						<div class="label">CORREO</div>
+						<p class="dato">trunks@dragon.com</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- jsDelivr :: Sortable :: Latest (https://www.jsdelivr.com/package/npm/sortablejs) -->
+	<script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
